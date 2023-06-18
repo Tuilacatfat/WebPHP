@@ -216,3 +216,16 @@
     height: 100%;
 
 }
+.home-product-item{
+    position: relative;
+}
+
+.home-product-item__thumb-link{
+    width: 100%;
+}
+
+.home-product-item__name{
+    font-size: 1.6rem;
+    margin: 8px 0;
+    font-weight: 400;
+}
