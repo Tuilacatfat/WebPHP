@@ -11,9 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/all.css">
+    
     <title>Catfat</title>
 </head>
-
 <body>
     <header class="header">
         <div class="grid">
@@ -107,6 +107,7 @@
             </nav>
         </div>
         <div class="contaner">
+            <?php include 'index.php'; ?>
             <div class="grid">
                 <div class="grid__row">
                     <div class="grid__column6">
@@ -114,6 +115,28 @@
                     </div>
                     <div class="grid__column6">
                         <img src="./img/mau2.jpg" alt="" class="img_class">
+                    </div>
+                </div>
+            </div>
+            <div class="container_app">
+                <div class="grid">
+                    <div class="app_title">
+                        <a href="" class="app_title_text"> Các sản phẩm hot nhất mùa hè</a>
+                    </div>
+                    <div class="grid__row">
+                        <div class="grid__column3">
+                            <div class="home-product-item">
+                                <a href="" class="home-product-item__thumb">
+                                    <img src="<?php echo $image; ?>" alt="" class="home-product-item__thumb-link">
+                                </a>
+                                <h5 class="home-product-item__name"><?php echo $name; ?></h5>
+                                <p>Price: <?php echo $price; ?></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__row">
+                    </div>
+                    <div class="grid__row">
                     </div>
                 </div>
             </div>
